@@ -22,3 +22,13 @@ Contact numbers verified against the supplied PDF: Barki Road Call 0323 9091177 
 
 The previous item-by-item menu has been replaced by the PDF landing page. There is no cart, search, category browsing or menu transcription in this version. System fonts, CSS motion and SVG icons keep it lightweight. No dedicated Apple UI/Motion skill was installed; the design uses those visual conventions directly.
 
+
+## Six-page menu layout
+
+View menu opens `public/menu.html`, which displays six locally hosted crops in a continuous column with equal widths and no gaps. Original proportions are retained, so the wider deals panel is shorter rather than stretched. Download PDF uses `public/menus/original-menu.pdf`, reordered to the exact same sequence: Order Now cover, Gen Xtra (Bedian flyer), Pizza, Smash Burgers, Lahori Chicken, Deals. The six-page PDF is approximately 3 MB. The original supplied file is preserved in Downloads.
+
+`scripts/prepare-menu.py` crops the source brochure at its panel boundaries and produces the six images, manifest, thumbnail and PDF. Its input currently points to the original supplied PDF in Downloads. The PDF reuses original page content through clipping and transformations; it is not regenerated from lower-resolution screenshots. `public/menus/pages.json` records the sequence and image dimensions. If recropping, update the matching image dimensions in `public/menu.html`.
+
+Verified all six rendered PDF pages visually, plus seamless image widths/no gaps/no horizontal overflow at 320, 390, 768 and 1440px. Screenshots: `screenshots/ordered-menu-*.png`.
+
+The cover phone-number strip is removed from both the web image and downloadable PDF at the owner's request. The preparation script removes that horizontal band and closes the gap; the website's branch Call and WhatsApp buttons remain available.

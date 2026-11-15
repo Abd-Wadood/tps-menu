@@ -1,0 +1,44 @@
+[
+  {
+    "page": 1,
+    "title": "Order Now",
+    "width": 683,
+    "height": 964,
+    "src": "menus/pages/01.jpg"
+  },
+  {
+    "page": 2,
+    "title": "Gen Xtra",
+    "width": 1234,
+    "height": 1742,
+    "src": "menus/pages/02.jpg"
+  },
+  {
+    "page": 3,
+    "title": "Pizza",
+    "width": 692,
+    "height": 1039,
+    "src": "menus/pages/03.jpg"
+  },
+  {
+    "page": 4,
+    "title": "Smash Burgers",
+    "width": 672,
+    "height": 1039,
+    "src": "menus/pages/04.jpg"
+  },
+  {
+    "page": 5,
+    "title": "Lahori Chicken",
+    "width": 684,
+    "height": 1039,
+    "src": "menus/pages/05.jpg"
+  },
+  {
+    "page": 6,
+    "title": "Deals",
+    "width": 1365,
+    "height": 1039,
+    "src": "menus/pages/06.jpg"
+  }
+]
