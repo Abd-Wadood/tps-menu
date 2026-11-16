@@ -32,3 +32,7 @@ View menu opens `public/menu.html`, which displays six locally hosted crops in a
 Verified all six rendered PDF pages visually, plus seamless image widths/no gaps/no horizontal overflow at 320, 390, 768 and 1440px. Screenshots: `screenshots/ordered-menu-*.png`.
 
 The cover phone-number strip is removed from both the web image and downloadable PDF at the owner's request. The preparation script removes that horizontal band and closes the gap; the website's branch Call and WhatsApp buttons remain available.
+
+## November 16 update
+
+The menu now contains seven pages: Order Now, Gen Xtra, Pizza, Smash Burgers, Crispy Burgers, Lahori Chicken, Deals. The supplied 1647×912 Crispy Burgers PNG is inserted after page 4, kept at full native resolution in the viewer and embedded losslessly in the downloadable PDF. All pages retain a 600pt PDF width and equal viewer widths, with original aspect ratios and no gaps. The downloadable PDF is approximately 4.8 MB. The website logo is now the supplied red JPEG, cropped around the artwork and optimized as WebP. Earlier six-page notes describe the prior version.

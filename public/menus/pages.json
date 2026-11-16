@@ -29,16 +29,23 @@
   },
   {
     "page": 5,
-    "title": "Lahori Chicken",
-    "width": 684,
-    "height": 1039,
-    "src": "menus/pages/05.jpg"
+    "title": "Crispy Burgers",
+    "width": 1647,
+    "height": 912,
+    "src": "menus/pages/05.png"
   },
   {
     "page": 6,
+    "title": "Lahori Chicken",
+    "width": 684,
+    "height": 1039,
+    "src": "menus/pages/06.jpg"
+  },
+  {
+    "page": 7,
     "title": "Deals",
     "width": 1365,
     "height": 1039,
-    "src": "menus/pages/06.jpg"
+    "src": "menus/pages/07.jpg"
   }
 ]

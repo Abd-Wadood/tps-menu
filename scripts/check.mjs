@@ -7,8 +7,8 @@ await access('public/menus/original-menu.pdf');await access('public/assets/logo.
 console.log('PASS: original PDF, logo, download and both branch contact links.');
 
 const manifest=JSON.parse(await readFile('public/menus/pages.json','utf8'));
-assert.deepEqual(manifest.map(p=>p.title),['Order Now','Gen Xtra','Pizza','Smash Burgers','Lahori Chicken','Deals']);
+assert.deepEqual(manifest.map(p=>p.title),['Order Now','Gen Xtra','Pizza','Smash Burgers','Crispy Burgers','Lahori Chicken','Deals']);
 const viewer=await readFile('public/menu.html','utf8');
 assert(html.includes('href="menu.html"'));
 for(const p of manifest){await access('public/'+p.src);assert(viewer.includes(p.src));}
-console.log('PASS: six ordered menu crops and viewer link.');
+console.log('PASS: seven ordered menu crops and viewer link.');
